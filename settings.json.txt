@@ -1,0 +1,63 @@
+{
+  // ===== TEMA E VISUAL =====
+  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.iconTheme": "icons",
+
+  // ===== EDITOR =====
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "selection",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+
+  // ===== FORMATAÇÃO AUTOMÁTICA =====
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+
+  // ===== JAVASCRIPT / TYPESCRIPT (REACT) =====
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // ===== JAVA =====
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+  "java.format.settings.profile": "GoogleStyle",
+
+  // ===== IMPORTS ORGANIZADOS =====
+  "typescript.preferences.organizeImports": true,
+  "javascript.preferences.organizeImports": true,
+
+  // ===== LIVE SERVER =====
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // ===== GIT =====
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+
+  // ===== ARQUIVOS =====
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.autoSave": "off",
+
+  // ===== EXPLORER =====
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": false
+}
+

@@ -61,3 +61,10 @@
   "explorer.confirmDragAndDrop": false
 }
 
+
+// ===== EXTENSÕES =====
+// Prettier
+// GitLens
+// Auto Rename Tag
+// Live Server
+// Icons

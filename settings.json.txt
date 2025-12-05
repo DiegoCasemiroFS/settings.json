@@ -13,7 +13,6 @@
   "editor.smoothScrolling": true,
 
   // ===== FORMATAÇÃO AUTOMÁTICA =====
-  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
@@ -43,22 +42,10 @@
   "typescript.preferences.organizeImports": true,
   "javascript.preferences.organizeImports": true,
 
-  // ===== LIVE SERVER =====
-  "liveServer.settings.donotShowInfoMsg": true,
-
   // ===== GIT =====
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.autofetch": true,
-
-  // ===== ARQUIVOS =====
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-  "files.autoSave": "off",
-
-  // ===== EXPLORER =====
-  "explorer.confirmDelete": true,
-  "explorer.confirmDragAndDrop": false
 }
 
 

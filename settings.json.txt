@@ -17,27 +17,6 @@
     "source.organizeImports": true
   },
 
-  // ===== JAVASCRIPT / TYPESCRIPT (REACT) =====
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-
-  // ===== JAVA =====
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
-  "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
-  "java.format.settings.profile": "GoogleStyle",
-
   // ===== IMPORTS ORGANIZADOS =====
   "typescript.preferences.organizeImports": true,
   "javascript.preferences.organizeImports": true,
@@ -46,8 +25,15 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.autofetch": true,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "terminal.integrated.stickyScroll.enabled": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
 }
-
 
 // ===== EXTENSÕES =====
 // Prettier
@@ -55,3 +41,4 @@
 // Auto Rename Tag
 // Live Server
 // Icons
+// Java Extension Pack
